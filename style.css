@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.seccion{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.inicio{
+    background-image: url(/img/papel_de_parede_gaming_controles_neon_fundo_azul_9911000_2_d1e7330636edc751bd42f1c041d2aae7.webp);
+    color: white;
+}
+
+.titulo{
+    font-size: 5rem;
+    text-align: center;
+}
+
+.letra_t{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.parrafo_titulo{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 20px;
+}
+.perfil{
+    background-color: #b0d7ff;
+}
+
+.sobre_mi{
+    margin-top: -30px;
+}
+.linea_perfil{
+    margin: 20px;
+}
+.foto{
+    width:200px ;
+    height: 200px;
+    border-radius: 50%;
+    margin: 10px;
+    border-style: inset;
+}
+
+.parrafos{
+    font-size: 1.2rem;
+    text-align: justify;
+    width: 100%;
+    margin-top: 10px;
+}
+#parrafo_perfil{
+    width: 40%;
+}
+
+.letra_p{
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.subtitulo_skill{
+    font-size: 2rem;
+    width: auto;
+}
+
+.skills{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    background-color: #091057;
+    color: white;
+    height: 200vh;
+}
+.linea_skills{
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+.skills_container{
+    width: 80%;
+}
+.skills_img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.footer{
+    height: 100hv;
+    background-color: #b0d7ff;
+}
+
+.subtitulo{
+    font-size: 3rem;
+    text-align: center;
+}
+
+hr{
+    border-color: white;
+    border-style: solid;
+    width: 50%;
+}
+
+.contactame{
+    padding: 10px;
+}
+.linea_footer{
+    margin: 0;
+    width: 100%;
+}
+.inf_contacto{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.img_container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.iconos{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+}
+
+.copyright {
+    width: auto;
+    height: 50px;    
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 10px;
+}
+
+li{ 
+    list-style: none;
+    margin: 20px;
+}
+
+li:hover{
+    color: #4c4a4a;
+}
+
+.enlace{
+    text-decoration: none;
+    color:inherit;
+}
