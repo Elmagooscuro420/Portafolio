@@ -80,7 +80,6 @@ html{
     background-color: #091057;
     color: white;
     height: 200vh;
-    clear: both;
 }
 .linea_skills{
     margin-top: -20px;
@@ -88,6 +87,7 @@ html{
 }
 .skills_container{
     width: 80%;
+    clear: both;
 }
 .skills_img{
     width: 200px;
