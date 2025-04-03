@@ -71,6 +71,7 @@ html{
 .subtitulo_skill{
     font-size: 2rem;
     width: auto;
+    clear: both;
 }
 
 .skills{
@@ -94,7 +95,7 @@ html{
     height: 200px;
     float: left;
     border-radius: 50%;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .footer{
