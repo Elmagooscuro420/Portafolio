@@ -2,19 +2,16 @@
     padding: 0;
     margin: 0;
 }
-html{
-    width: 100%;
-}
 .seccion{
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    max-width: 100%;
     height: 100vh;
 }
 .inicio{
-    width: auto;
+    max-width: auto;
     background-image: url(./img/papel_de_parede_gaming_controles_neon_fundo_azul_9911000_2_d1e7330636edc751bd42f1c041d2aae7.webp);
     color: white;
 }
@@ -87,9 +84,10 @@ html{
     float: left;
     width: 20vh;
     height: 20vh;
+    max-width: 100%;
     text-align: center;
     border-radius: 50%;
-    padding: 20px;
+    margin-right: 10px;
 }
 
 .footer{
@@ -113,7 +111,7 @@ hr{
 }
 .linea_footer{
     margin: 0;
-    width: 100%;
+    max-width: 100%;
 }
 .info_contacto{
     display: flex;
@@ -124,7 +122,7 @@ hr{
 .img_container{
     display: flex;
     justify-content: center;
-    margin-bottom: 5px;
+    margin: 5px;
 }
 .iconos{
     width: 30px;
@@ -143,13 +141,12 @@ ul{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: auto;
-    padding: 10px;
 }
 
 li{ 
     list-style: none;
-    margin: 20px;
+    margin: 8px;
+    width: auto;
 }
 
 li:hover{
