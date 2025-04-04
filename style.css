@@ -39,15 +39,12 @@ html{
     background-color: #b0d7ff;
 }
 
-.sobre_mi{
-    margin-top: -30px;
-}
-.linea_perfil{
-    margin: 20px;
+.linea{
+    margin: 10px;
 }
 .foto{
-    width:200px ;
-    height: 200px;
+    width:20vh ;
+    height: 20vh;
     border-radius: 50%;
     margin: 10px;
     border-style: inset;
@@ -71,7 +68,6 @@ html{
 .subtitulo_skill{
     font-size: 2rem;
     width: auto;
-    clear: both;
 }
 
 .skills{
@@ -80,22 +76,20 @@ html{
     justify-content: space-evenly;
     background-color: #091057;
     color: white;
-    height: 200vh;
-}
-.linea_skills{
-    margin-top: -20px;
-    margin-bottom: 10px;
+    height: auto;
 }
 .skills_container{
-    width: 80%;
-    clear: both;
+    display: block;
+    padding: 20px;
+    width: 50%;
 }
 .skills_img{
-    width: 200px;
-    height: 200px;
     float: left;
+    width: 20vh;
+    height: 20vh;
+    text-align: center;
     border-radius: 50%;
-    margin-right: 10px;
+    padding: 20px;
 }
 
 .footer{
@@ -121,7 +115,7 @@ hr{
     margin: 0;
     width: 100%;
 }
-.inf_contacto{
+.info_contacto{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
